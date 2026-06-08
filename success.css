@@ -52,6 +52,9 @@ button{
     border-radius:8px;
     cursor:pointer;
 }
+
 button:hover{
-    background: red;
+    background-color: hsl(4, 85%, 56%);
+    transition: background-color 0.3s ease;
+    scale: 1.05;
 }
