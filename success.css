@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:#242742;
+}
+
+.card{
+    background:white;
+    padding:40px;
+    width:400px;
+    border-radius:25px;
+}
+
+.icon{
+    width:60px;
+    height:60px;
+    background:#ff6257;
+    color:white;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:30px;
+    margin-bottom:20px;
+}
+
+h1{
+    color:#242742;
+    margin-bottom:20px;
+}
+
+p{
+    margin-bottom:25px;
+    line-height:1.6;
+}
+
+button{
+    width:100%;
+    padding:15px;
+    border:none;
+    background:#242742;
+    color:white;
+    border-radius:8px;
+    cursor:pointer;
+}
