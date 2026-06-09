@@ -78,7 +78,9 @@ span{
     color: red;
     font-size: 15px;
 }
-
+.mobile-image {
+    display: none;
+}
 footer {
     background-color: hsl(234, 20%, 39%);
     color: white;
